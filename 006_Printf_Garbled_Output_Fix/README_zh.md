@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 FreeRTOS 多任务串口打印保护实验
 
 ## 项目简介
@@ -26,3 +28,7 @@ USART1 使用 PA9（TX）和 PA10（RX），波特率为 115200。LED1、LED2 �
 - `Drivers/SYSTEM/uart1/uart1.h`：`debug_printf()` 临界区宏。
 - `Drivers/BSP/freertos_test/`：并发打印及任务测试。
 - `Drivers/SYSTEM/uart1/`：USART1 驱动与 `printf()` 重定向。
+
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。

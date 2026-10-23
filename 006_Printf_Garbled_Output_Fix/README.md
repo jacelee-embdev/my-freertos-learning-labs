@@ -1,5 +1,7 @@
 **English** | [简体中文](README_zh.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 FreeRTOS Protected Debug Printing
 
 ## Overview
@@ -26,3 +28,7 @@ Open `Projects/MDK-ARM/STM32F103.uvprojx`, then build and flash it. Connect a se
 - `Drivers/SYSTEM/uart1/uart1.h`: Critical-section `debug_printf()` macro.
 - `Drivers/BSP/freertos_test/`: Concurrent printing and task test logic.
 - `Drivers/SYSTEM/uart1/`: USART1 driver and `printf()` redirection.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
