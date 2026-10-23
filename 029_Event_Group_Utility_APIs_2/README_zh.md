@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 FreeRTOS 事件组同步屏障实验
 
 ## 项目简介
@@ -26,3 +28,7 @@ KEY1、KEY2 分别连接 PA0、PA1，采用内部上拉并在按下时接地。U
 - `Drivers/BSP/freertos_test/`：同步屏障及三个逻辑角色。
 - `Drivers/BSP/key/`：模块就绪事件输入。
 - `Users/FreeRTOSConfig.h`：事件组功能配置。
+
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。
