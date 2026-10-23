@@ -1,5 +1,7 @@
 **English** | [简体中文](README_zh.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 FreeRTOS Static Task Creation
 
 ## Overview
@@ -26,3 +28,7 @@ Open `Projects/MDK-ARM/STM32F103.uvprojx` in Keil MDK, build the project, and fl
 - `Drivers/BSP/freertos_test/`: Static tasks, stacks, TCBs, and kernel memory callbacks.
 - `Users/FreeRTOSConfig.h`: Static allocation and software timer settings.
 - `Users/main.c`: Peripheral initialization and scheduler startup.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
