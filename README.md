@@ -54,7 +54,7 @@ Click a project name to read its English documentation.
 | 029 | [Event_Group_Utility_APIs_2](029_Event_Group_Utility_APIs_2/README.md) | Builds a multitask synchronization barrier for three logical participants with `xEventGroupSync()`. |
 | 030 | [Memory_Utility_APIs](030_Memory_Utility_APIs/README.md) | Reports heap statistics including free space, largest free block, and cumulative allocation and free counts. |
 | 031 | [Pedestrian_Flow_Control_V1](031_Pedestrian_Flow_Control_V1/README.md) | Combines infrared counting, a gate, LCD, LEDs, and a buzzer for five-person flow control with automatic recovery. |
-| 031 | [Pedestrian_Flow_Control_Refactored](031_Pedestrian_Flow_Control_Refactored/README.md) | Preserves the five-person limit while restructuring the application around a state machine, actuator, and display task. |
+| 032 | [Pedestrian_Flow_Control_V2](032_Pedestrian_Flow_Control_V2/README.md) | Preserves the five-person limit while restructuring the application around a state machine, actuator, and display task. |
 | 032 | [Access_Control_Original](032_Access_Control_Original/README.md) | Implements keypad access control with W25Q128 password storage, failed-attempt alarms, and automatic relocking. |
 | 032 | [Access_Control_Refactored](032_Access_Control_Refactored/README.md) | Preserves the access-control features while clarifying the password state machine, messages, and software/hardware roles. |
 | 033 | [Smart_Desk_Lamp_Original](033_Smart_Desk_Lamp_Original/README.md) | Integrates presence sensing, automatic dimming, distance and sitting-time alarms, OLED output, and Bluetooth control. |

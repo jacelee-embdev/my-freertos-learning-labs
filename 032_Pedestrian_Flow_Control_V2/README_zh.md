@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-# STM32F103C8T6 人员通行流量控制系统（重构版）
+# STM32F103C8T6 人员通行流量控制系统（V2，重构版）
 
 ## 项目简介
 
