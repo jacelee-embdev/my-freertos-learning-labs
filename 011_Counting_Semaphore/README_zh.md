@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 FreeRTOS 计数型信号量实验
 
 ## 项目简介
@@ -26,3 +28,7 @@ KEY1、KEY2 分别连接 PA0、PA1，采用内部上拉并在按下时接地。L
 - `Drivers/BSP/freertos_test/`：计数型信号量创建与操作。
 - `Drivers/BSP/key/`：按键输入。
 - `Drivers/SYSTEM/uart1/`：计数和结果输出。
+
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。
