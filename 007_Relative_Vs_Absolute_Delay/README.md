@@ -1,5 +1,7 @@
 **English** | [简体中文](README_zh.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 FreeRTOS Relative and Absolute Delays
 
 ## Overview
@@ -26,3 +28,7 @@ Open `Projects/MDK-ARM/STM32F103.uvprojx`, build it, and flash the board. Observ
 - `Drivers/BSP/freertos_test/`: Tasks implementing both delay methods.
 - `Drivers/BSP/led/`: Dual-LED driver.
 - `Drivers/SYSTEM/delay/`: Busy-wait function used to simulate processing.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
