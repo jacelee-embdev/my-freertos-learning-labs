@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-# STM32F103C8T6 Smart Desk Lamp — Original
+# STM32F103C8T6 Smart Desk Lamp — Original (V1)
 
 ## Overview
 
