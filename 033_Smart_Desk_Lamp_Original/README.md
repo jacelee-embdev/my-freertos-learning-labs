@@ -1,5 +1,7 @@
 **English** | [简体中文](README_zh.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 Smart Desk Lamp — Original
 
 ## Overview
@@ -26,3 +28,7 @@ Open `Projects/MDK-ARM/STM32F103.uvprojx`, build it, and flash the board. Select
 - `Drivers/BSP/app_sys_orchestrator/`: Original sensing, display, and control tasks.
 - `Drivers/BSP/light_sensor/`, `Drivers/BSP/hcsr04/`, and `Drivers/BSP/ia_sensor/`: Environment inputs.
 - `Drivers/BSP/led/`, `Drivers/BSP/bluetooth/`, and `Drivers/BSP/oled/`: Lighting, remote control, and UI.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
