@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 FreeRTOS Tickless 低功耗实验
 
 ## 项目简介
@@ -26,3 +28,7 @@ LED1、LED2 分别连接 PB8、PB9。USART1 使用 PA9/PA10。RTC 使用外部 3
 - `Drivers/BSP/freertos_test/`：Tickless 睡眠前后处理。
 - `Drivers/BSP/rtc/`：LSE、RTC 闹钟和唤醒中断。
 - `Users/FreeRTOSConfig.h`：低功耗功能配置。
+
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。
