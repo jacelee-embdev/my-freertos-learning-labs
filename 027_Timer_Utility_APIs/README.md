@@ -1,5 +1,7 @@
 **English** | [简体中文](README_zh.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 FreeRTOS Timer Utility APIs
 
 ## Overview
@@ -26,3 +28,7 @@ Open `Projects/MDK-ARM/STM32F103.uvprojx`, build and flash it, then connect a se
 - `Drivers/BSP/freertos_test/`: Timer queries, monitor, and callbacks.
 - `Drivers/BSP/key/`: Timer control input.
 - `Users/FreeRTOSConfig.h`: Timer service settings.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
