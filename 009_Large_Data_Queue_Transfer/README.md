@@ -1,5 +1,7 @@
 **English** | [简体中文](README_zh.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 FreeRTOS Large Data Queue Transfer
 
 ## Overview
@@ -26,3 +28,7 @@ Open `Projects/MDK-ARM/STM32F103.uvprojx`, build and flash it, then connect a se
 - `Drivers/BSP/freertos_test/freertos_test.h`: Pointer queue-item type.
 - `Drivers/BSP/freertos_test/freertos_test.c`: Message buffer and queue tasks.
 - `Drivers/SYSTEM/uart1/`: Long debug-message output.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
