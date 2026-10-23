@@ -55,7 +55,7 @@
 | 030 | [Memory_Utility_APIs](030_Memory_Utility_APIs/README_zh.md) | 获取空闲空间、最大连续空闲块及累计分配和释放次数等堆统计信息。 |
 | 031 | [Pedestrian_Flow_Control_V1](031_Pedestrian_Flow_Control_V1/README_zh.md) | 使用红外计数、闸机、LCD、LED 和蜂鸣器实现五人限流及 3 秒自动恢复。 |
 | 032 | [Pedestrian_Flow_Control_V2](032_Pedestrian_Flow_Control_V2/README_zh.md) | 保留五人限流功能，并以状态机、执行器和独立显示任务重构应用层。 |
-| 032 | [Access_Control_Original](032_Access_Control_Original/README_zh.md) | 实现带 W25Q128 密码存储、矩阵键盘输入、错误报警和自动落锁的门禁系统。 |
+| 033 | [Access_Control_V1](033_Access_Control_V1/README_zh.md) | 实现带 W25Q128 密码存储、矩阵键盘输入、错误报警和自动落锁的门禁系统。 |
 | 032 | [Access_Control_Refactored](032_Access_Control_Refactored/README_zh.md) | 保留完整门禁功能，并重构密码状态机、消息结构及软硬件职责边界。 |
 | 033 | [Smart_Desk_Lamp_Original](033_Smart_Desk_Lamp_Original/README_zh.md) | 集成人体感应、自动调光、测距与久坐报警、OLED 显示和蓝牙控制。 |
 | 033 | [Smart_Desk_Lamp_Refactored](033_Smart_Desk_Lamp_Refactored/README_zh.md) | 保留三种工作模式，并重构共享状态、阈值配置、初始化和任务协作。 |

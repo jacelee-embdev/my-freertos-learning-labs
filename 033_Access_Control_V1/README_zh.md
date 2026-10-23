@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-# STM32F103C8T6 密码门禁系统（原版）
+# STM32F103C8T6 密码门禁系统（V1，原版）
 
 ## 项目简介
 
