@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 密码门禁系统（重构版）
 
 ## 项目简介
@@ -26,3 +28,7 @@
 - `Drivers/BSP/app_sys_orchestrator/`：重构后的密码状态机和任务编排。
 - `Drivers/BSP/password/`：密码数据处理。
 - `Drivers/BSP/oled/`、`Drivers/BSP/relay_lock/`、`Drivers/BSP/w25q128/`：界面、门锁和存储。
+
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。

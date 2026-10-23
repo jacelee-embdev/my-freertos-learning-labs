@@ -1,5 +1,7 @@
 **English** | [简体中文](README_zh.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 Password Access Control — Refactored
 
 ## Overview
@@ -26,3 +28,7 @@ Open `Projects/MDK-ARM/STM32F103.uvprojx`, build it, and flash the board. On fir
 - `Drivers/BSP/app_sys_orchestrator/`: Refactored password state machine and tasks.
 - `Drivers/BSP/password/`: Password data processing.
 - `Drivers/BSP/oled/`, `Drivers/BSP/relay_lock/`, and `Drivers/BSP/w25q128/`: UI, lock, and storage.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
