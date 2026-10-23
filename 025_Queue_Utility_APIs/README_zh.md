@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 FreeRTOS 队列辅助 API 实验
 
 ## 项目简介
@@ -26,3 +28,7 @@ KEY1、KEY2 分别连接 PA0、PA1，使用内部上拉并在按下时接地。L
 - `Drivers/BSP/freertos_test/`：队列状态查询和复位逻辑。
 - `Drivers/BSP/key/`：队列操作输入。
 - `Drivers/BSP/led/`：系统心跳指示。
+
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。
