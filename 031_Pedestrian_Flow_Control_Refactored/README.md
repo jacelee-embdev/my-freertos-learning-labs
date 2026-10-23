@@ -1,5 +1,7 @@
 **English** | [简体中文](README_zh.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 Pedestrian Flow Control System — Refactored
 
 ## Overview
@@ -26,3 +28,7 @@ Open `Projects/MDK-ARM/STM32F103.uvprojx`, build it, and flash the board. Trigge
 - `Drivers/BSP/app_sys_orchestrator/`: Refactored state machine and task coordination.
 - `Drivers/BSP/exti/`: Infrared event acquisition.
 - `Drivers/BSP/lcd1602/` and `Drivers/BSP/relay_gate/`: Display and actuator drivers.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
