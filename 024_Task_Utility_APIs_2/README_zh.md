@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 FreeRTOS 任务辅助 API 实验二
 
 ## 项目简介
@@ -26,3 +28,7 @@ USART1 使用 PA9（TX）和 PA10（RX），波特率为 115200，是本实验�
 - `Drivers/BSP/freertos_test/`：任务列表和状态查询逻辑。
 - `Users/FreeRTOSConfig.h`：跟踪及格式化功能配置。
 - `Drivers/SYSTEM/uart1/`：状态表输出。
+
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。
