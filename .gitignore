@@ -1,27 +1,44 @@
-# Keil Generated output files in the sub-directories .\Listings and .\Objects
-*.lst
+# Local assistant and editor configuration
+.agent/
+.agents/
+.vscode/
+
+# Reproducible compiler and linker outputs
 *.o
 *.d
+*.dep
 *.crf
 *.lnp
-*.axf
-*.htm
-*.build_log.htm
-*.dep
-*.iex
-*.i
-*._2i
-*.l2p
-*.fed
+*.lst
 *.map
-*.hex
+*.axf
+
+# Reproducible firmware outputs
 *.bin
-*.Bak
+*.hex
+*.mxxx
 
-#Keil Project screen layout file
-*.uvguix.*
-*.uvgui.*
+# Superseded scatter-file backups
+*_sct.[Bb][Aa][Kk]
 
-#JLINK file
+# Generated build and debugger logs
+*.build_log.htm
+UV4_cli_output.htm
 JLinkLog.txt
-*.dbgconf
+JLinkDebugLog.txt
+
+# Generated call graphs are excluded by each lab's .gitignore using exact paths.
+
+# Required project inputs and explicitly retained user configuration
+!*.uvprojx
+!*.uvoptx
+!*.uvguix.*
+!*.uvgui.*
+!*.dbgconf
+!JLinkSettings.ini
+!*.scvd
+!*.ioc
+!.mxproject
+!*.sct
+!*.lib
+!.gitkeep
