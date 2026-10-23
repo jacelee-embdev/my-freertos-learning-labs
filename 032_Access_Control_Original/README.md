@@ -1,5 +1,7 @@
 **English** | [简体中文](README_zh.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 Password Access Control — Original
 
 ## Overview
@@ -26,3 +28,7 @@ Open `Projects/MDK-ARM/STM32F103.uvprojx`, build it, and flash the board. On fir
 - `Drivers/BSP/app_sys_orchestrator/`: Original access-control tasks and messaging.
 - `Drivers/BSP/password/`: Password buffering, comparison, and storage.
 - `Drivers/BSP/keyboard/` and `Drivers/BSP/w25q128/`: Input and non-volatile storage.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
