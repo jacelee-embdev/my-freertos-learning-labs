@@ -56,7 +56,7 @@ Click a project name to read its English documentation.
 | 031 | [Pedestrian_Flow_Control_V1](031_Pedestrian_Flow_Control_V1/README.md) | Combines infrared counting, a gate, LCD, LEDs, and a buzzer for five-person flow control with automatic recovery. |
 | 032 | [Pedestrian_Flow_Control_V2](032_Pedestrian_Flow_Control_V2/README.md) | Preserves the five-person limit while restructuring the application around a state machine, actuator, and display task. |
 | 033 | [Access_Control_V1](033_Access_Control_V1/README.md) | Implements keypad access control with W25Q128 password storage, failed-attempt alarms, and automatic relocking. |
-| 032 | [Access_Control_Refactored](032_Access_Control_Refactored/README.md) | Preserves the access-control features while clarifying the password state machine, messages, and software/hardware roles. |
+| 034 | [Access_Control_V2](034_Access_Control_V2/README.md) | Preserves the access-control features while clarifying the password state machine, messages, and software/hardware roles. |
 | 033 | [Smart_Desk_Lamp_Original](033_Smart_Desk_Lamp_Original/README.md) | Integrates presence sensing, automatic dimming, distance and sitting-time alarms, OLED output, and Bluetooth control. |
 | 033 | [Smart_Desk_Lamp_Refactored](033_Smart_Desk_Lamp_Refactored/README.md) | Preserves all three operating modes while restructuring shared state, thresholds, initialization, and task coordination. |
 

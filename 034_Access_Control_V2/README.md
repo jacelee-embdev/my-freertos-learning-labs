@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-# STM32F103C8T6 Password Access Control — Refactored
+# STM32F103C8T6 Password Access Control — Refactored (V2)
 
 ## Overview
 
