@@ -58,7 +58,7 @@ Click a project name to read its English documentation.
 | 033 | [Access_Control_V1](033_Access_Control_V1/README.md) | Implements keypad access control with W25Q128 password storage, failed-attempt alarms, and automatic relocking. |
 | 034 | [Access_Control_V2](034_Access_Control_V2/README.md) | Preserves the access-control features while clarifying the password state machine, messages, and software/hardware roles. |
 | 035 | [Smart_Desk_Lamp_V1](035_Smart_Desk_Lamp_V1/README.md) | Integrates presence sensing, automatic dimming, distance and sitting-time alarms, OLED output, and Bluetooth control. |
-| 033 | [Smart_Desk_Lamp_Refactored](033_Smart_Desk_Lamp_Refactored/README.md) | Preserves all three operating modes while restructuring shared state, thresholds, initialization, and task coordination. |
+| 036 | [Smart_Desk_Lamp_V2](036_Smart_Desk_Lamp_V2/README.md) | Preserves all three operating modes while restructuring shared state, thresholds, initialization, and task coordination. |
 
 ## Development Environment
 
