@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 FreeRTOS 移植实验
 
 ## 项目简介
@@ -26,3 +28,7 @@ LED1 连接 PB8，LED2 连接 PB9，均为低电平点亮。USART1 使用 PA9（
 - `Users/FreeRTOSConfig.h`：FreeRTOS 内核配置。
 - `Drivers/BSP/freertos_test/`：测试任务的创建与运行逻辑。
 - `Users/main.c`：硬件初始化和调度器启动入口。
+
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。
