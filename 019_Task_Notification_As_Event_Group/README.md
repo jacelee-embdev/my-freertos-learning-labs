@@ -1,5 +1,7 @@
 **English** | [简体中文](README_zh.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 Task Notification as Event Group
 
 ## Overview
@@ -26,3 +28,7 @@ Open `Projects/MDK-ARM/STM32F103.uvprojx`, build and flash it, then connect a se
 - `Drivers/BSP/freertos_test/`: Event-bit send, receive, and accumulation.
 - `Drivers/BSP/key/`: Two-key event source.
 - `Users/FreeRTOSConfig.h`: Task notification settings.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
